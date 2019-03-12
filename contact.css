@@ -1,0 +1,124 @@
+/*body {
+	font-family: sans-serif,Arial,Helvetica;
+	color: #b23535;
+}
+*/
+form {
+	width: 100%;
+	margin: 10px auto;
+	margin-top: 70px;
+	padding: 15px 15px;
+    background-color: #11122b;
+	padding-bottom: 55px;
+	border-radius: 25px;
+    
+}
+
+h1 {
+	margin: 6px 0 4px 16px;
+	font-size: 26px;
+	text-align: center;
+	color: #fff;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+	border: none;
+	font-size: 18px;
+	height: auto;
+	margin: 0;
+	outline: 0;
+	padding: 8px;
+	width: 100%;
+	background-color: #e8eeef;
+	color: #000;
+	margin-bottom: 20px;
+	
+}
+
+
+
+
+button {
+	padding: 12px 22px 12px 22px;
+	color: #fff;
+	background-color: #a30000;
+	font-size: 24px;
+	text-align: center;
+	font-style: normal;
+	border-radius: 20px;
+	margin-right: 5px;
+	margin-left: 5px;
+	
+	border: 1px solid #a30000;
+	border-style: none;
+}
+fieldset {
+	margin-bottom: 30px;
+    margin-right: 30px;
+    
+	border: none;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+	color: #fff;
+	font-weight: bold;
+}
+#clear {
+	padding: 12px 22px 12px 22px;
+	color: #fff;
+	background-color: #a30000;
+	font-size: 24px;
+	text-align: center;
+	font-style: normal;
+	border-radius: 20px;
+	margin-right: 5px;
+	margin-left: 19px;
+	border: 1px solid #a30000;
+	border-width: 1px 1px 3px;
+	border-style: none;
+	
+	
+}
+
+#message {
+    height: 200px;
+}
+.contact-grid-wrapper {
+    width: 900px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-gap: 100px;
+}
+
+.company-metadata-sidebar-wrapper > .logo img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper {
+    font-family: "Ubuntu Condensed", sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-size: 1.25em;
+}
+
+.company-metadata-sidebar-wrapper > .company-details-wrapper i {
+    color: #cea135;
+}
+
+
+
+
+
+.company-metadata-sidebar-wrapper {
+    margin: 0px;
+}

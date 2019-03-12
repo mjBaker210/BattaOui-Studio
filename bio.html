@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<!--viewport element gives the browser onstructions on how to control the page's demensions and scaling-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+<meta name="description" content="BattaOui Website">
+<meta name="keywords" content="Practice website-Photographer Website">
+<meta name="author" content="M.J.Baker">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+<link rel="stylesheet" href="css/styles.css">
+    
+<title>Photographer/Bio</title>
+	
+</head>
+	
+<script>
+
+    
+   // / Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+	
+</script>
+<body>
+	
+	<!--container starts here-->
+<div id="container">
+	
+	<!--header starts here and ends-->
+  <div id="header">
+     <div class="header-content">
+        <h4>These images taken by me in 2014 during my work as over the road  trucker</h4>
+        
+    </div>
+	
+  </div>
+ 
+	  
+
+	
+  
+
+	
+    
+    
+        
+     <!-- The navigation menu -->
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">All images <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+        <a href="all.html">All images</a>
+      <a href="apriljuly.html">April-July</a>
+      <a href="julyaugust.html">July-August</a>
+      <a href="augustseptember.html">August-September</a>
+    <a href="septembermarch.html">September-March</a>
+  </div> 
+    
+</div>
+     <a href="bio.html">Biography</a>
+     <a href="contact.html">Contact</a>
+      
+    </div>
+    
+    
+    
+   <!-- <title>TOM FORD Tribute Page</title>-->
+
+<div class="bio-container">
+<h1>M. J. Baker</h1>
+<p>"From the time we're born until we die, we're kept busy with artificial stuff that isn't important."</p><img src="Assets/Bio/MJ.jpg"  alt="">
+
+<p class= "main"> I am not a professional photographer, but I like to take pictures.  From taking photos  of the great sphinx in Egypt to the Texas canyon in Arizona, always capturing the moment has been so special to me. In 2014 I was working in a transportation company out of Dallas, Texas as an over the road driver.  It was very challenging job on daily basis.  It gave me the sense of freedom, freedom of the open road.  Nothing compares to be by yourself in the middle of nowhere and so quiet.   It was a new birth to me.  The pictures I took was by my iPhone 5 and most of the shoots I took was taking while I am driving an 18-wheeler.  I used adobe photoshop and Lightroom to edit some of them. Thank you for reading.</p>
+
+  <p class = "link"><a href="https://www.battaoui.com/about">MORE ABOUT ME</a></p>
+</div>    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+	
+  <!--<div id="bio">
+	
+	<div class="bio-pic">
+		
+		<img src="Assets/Bio/king_of_egypt.png" alt="Avatar" class="image">
+	<div class="bio-header">
+    <div class="text">M. J. BAKER</div>
+  </div>
+		</div>
+       
+	
+	
+	
+	
+	
+	<div class="bio-content">
+		<h1>Where does it come from?</h1>
+	<p> 
+Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.                </p>
+		
+		
+		</div>
+	
+
+</div>
+	
+	
+	-->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<footer class="footer">
+	
+<div class="footer-social-icons">
+   
+    <ul class="social-icons">
+        <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+    </ul>
+</div>
+ 
+    
+    </footer>
+	
+	
+	
+	</div>
+	
+	
+	
+	
+	<!--container ends here-->
+
+	
+	<script src="js/styles.js"></script>
+	<script src="js/modernizr-custom.js"></script>
+	<script src="js/jquery.js"></script>	
+</body>
+</html>

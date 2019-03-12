@@ -1,0 +1,454 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+	<!--viewport element gives the browser onstructions on how to control the page's demensions and scaling-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+<meta name="description" content="BattaOui Website">
+<meta name="keywords" content="Practice website-Photographer Website">
+<meta name="author" content="M.J.Baker">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+<link rel="stylesheet" href="css/styles.css">
+    
+<title>Photographer/All Images</title>
+	
+</head>
+	
+<script>
+			function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+                
+      
+}
+
+
+    
+   // / Open the Modal
+function openModal() {
+  document.getElementById('myModal').style.display = "block";
+}
+
+// Close the Modal
+function closeModal() {
+  document.getElementById('myModal').style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+	
+</script>
+<body>
+	
+	<!--container starts here-->
+<div id="container">
+	
+	<!--header starts here and ends-->
+  <div id="header">
+     <div class="header-content">
+        <h4>These images taken by me in 2014 during my work as over the road  trucker</h4>
+        
+     </div>
+	
+  </div>
+ 
+	  
+
+	
+    
+    
+     
+     <!-- The navigation menu -->
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <div class="subnav">
+    <button class="subnavbtn">All images <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+        <a href="all.html">All images</a>
+      <a href="apriljuly.html">April-July</a>
+      <a href="julyaugust.html">July-August</a>
+      <a href="augustseptember.html">August-September</a>
+    <a href="septembermarch.html">September-March</a>
+  </div> 
+    
+</div>
+     <a href="bio.html">Biography</a>
+     <a href="contact.html">Contact</a>
+      
+    </div>
+    
+    
+<!-- ==================Images used to open the lightbox ============-->
+    
+<div class="row">
+    
+  
+    
+    <div class="column">
+    <img src="Assets/all/images-19.jpg" onclick="openModal();currentSlide(19)" alt="" class="hover-shadow">
+  </div>
+    
+<div class="column">
+    <img src="Assets/all/images-20.jpg" onclick="openModal();currentSlide(20)" alt="" class="hover-shadow">
+  </div>
+    
+    
+<div class="column">
+    <img src="Assets/all/images-21.jpg" onclick="openModal();currentSlide(21)" alt="" class="hover-shadow">
+  </div>
+    
+ <div class="column">
+    <img src="Assets/all/images-22.jpg" onclick="openModal();currentSlide(22)" alt="" class="hover-shadow">
+  </div>
+    
+ 
+    <div class="column">
+    <img src="Assets/all/images-23.jpg" onclick="openModal();currentSlide(23)" alt="" class="hover-shadow">
+  </div>
+    
+ <div class="column">
+    <img src="Assets/all/images-24.jpg" onclick="openModal();currentSlide(24)" alt="" class="hover-shadow">
+  </div>
+    
+    
+    <div class="column">
+    <img src="Assets/all/images-25.jpg" onclick="openModal();currentSlide(25)" alt="" class="hover-shadow">
+  </div>
+    
+ <div class="column">
+    <img src="Assets/all/images-26.jpg" onclick="openModal();currentSlide(26)" alt="" class="hover-shadow">
+    </div>
+    
+    <div class="column">
+    <img src="Assets/all/images-27.jpg" onclick="openModal();currentSlide(27)" alt="" class="hover-shadow">
+    
+    </div>
+    
+      <div class="column">
+    <img src="Assets/all/images-28.jpg" onclick="openModal();currentSlide(28)" alt=" July 27, 2014 Utah " class="hover-shadow">
+  </div>
+    
+ <div class="column">
+    <img src="Assets/all/images-29.jpg" onclick="openModal();currentSlide(29)" alt=" July 30, 2014 Victorville, California " class="hover-shadow">
+  </div>
+    
+    
+<div class="column">
+    <img src="Assets/all/images-30.jpg" onclick="openModal();currentSlide(30)" alt=" July 30, 2014 Victorville, California " class="hover-shadow">
+  </div>
+    
+<div class="column">
+    <img src="Assets/all/images-31.jpg" onclick="openModal();currentSlide(31)" alt="" class="hover-shadow">
+  </div>
+    
+    
+<div class="column">
+    <img src="Assets/all/images-32.jpg" onclick="openModal();currentSlide(32)" alt="April 12, 2014 Utah" class="hover-shadow">
+  </div>
+    
+ <div class="column">
+    <img src="Assets/all/images-33.jpg" onclick="openModal();currentSlide(33)" alt="April 26, 2014 Oklahoma" class="hover-shadow">
+  </div>
+    
+ <div class="column">
+    <img src="Assets/all/images-34.jpg" onclick="openModal();currentSlide(34)" alt="April 26, 2014 Oklahoma" class="hover-shadow">
+  </div>
+    
+ <div class="column">
+    <img src="Assets/all/images-35.jpg" onclick="openModal();currentSlide(35)" alt="May 2, 2014.  Tennessee" class="hover-shadow">
+  </div>
+    
+<div class="column">
+    <img src="Assets/all/images-36.jpg" onclick="openModal();currentSlide(36)" alt="May 17, 2014  Pennsylvania " class="hover-shadow">
+  </div>
+    
+    
+
+    
+    
+</div>
+    
+
+    
+    
+    
+    
+<!-------------------------- The Modal/Lightbox ----------------->
+<div id="myModal" class="modal">
+    
+    
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+      
+      
+      
+     
+
+    <div class="mySlides">
+      <div class="numbertext">19 / 73</div>
+      <img src="Assets/all/images-19.jpg" alt=""  >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">20 / 73</div>
+      <img src="Assets/all/images-20.jpg" alt=""  >
+    </div>
+
+      
+       <div class="mySlides">
+      <div class="numbertext">21 / 73</div>
+      <img src="Assets/all/images-21.jpg" alt=""  >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">22 / 73</div>
+      <img src="Assets/all/images-22.jpg"  alt="" >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">23 / 73</div>
+      <img src="Assets/all/images-23.jpg"  alt="" >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">24 / 73</div>
+      <img src="Assets/all/images-24.jpg"  alt="" >
+    </div>
+      
+      <div class="mySlides">
+      <div class="numbertext">25 / 73</div>
+      <img src="Assets/all/images-25.jpg"  alt="" >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">26 / 73</div>
+      <img src="Assets/all/images-26.jpg"  alt="" >
+    </div>
+      
+       <div class="mySlides">
+      <div class="numbertext">27 /73</div>
+      <img src="Assets/all/images-27.jpg"   alt="">
+    </div>
+      
+            <div class="mySlides">
+      <div class="numbertext">28 / 73</div>
+      <img src="Assets/all/images-28.jpg"   alt="April 3, 3014. Missouri" >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">29 / 73</div>
+      <img src="Assets/all/images-29.jpg"  alt="April 3, 3014. Missouri" >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">30 / 73</div>
+      <img src="Assets/all/images-30.jpg"  alt="April9, 2014 West Virginia"  >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">31 / 73</div>
+      <img src="Assets/all/images-31.jpg"  alt="April 10, 2014 Mississippi River  Iowa"  >
+    </div>
+
+      
+       <div class="mySlides">
+      <div class="numbertext">32 / 73</div>
+      <img src="Assets/all/images-32.jpg" alt="April 12, 2014 Utah">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">33 / 73</div>
+      <img src="Assets/all/images-33.jpg" alt="April 26, 2014 Oklahoma"  >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">34 /73</div>
+      <img src="Assets/all/images-34.jpg" alt="April 26, 2014 Oklahoma"  >
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">35 / 73</div>
+      <img src="Assets/all/images-35.jpg" alt="May 2, 2014.  Tennessee">
+    </div>
+    
+      <div class="mySlides">
+      <div class="numbertext">36 / 73</div>
+      <img src="Assets/all/images-36.jpg" alt="May 17, 2014  Pennsylvania "  >
+    </div>
+
+      
+
+      
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+      
+<!----------------Thumbnail image controls ---------------->
+      
+      
+      
+      
+      
+      <!--              April 3 to May 17        -->
+   
+      
+      <!--         July 20 to July 27      -->
+      
+      
+
+    <div class="column">
+      <img class="demo" src="Assets/all/images-19.jpg" onclick="currentSlide(19)" alt="July 20,2014  Glendale, Arizona ">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Assets/all/images-20.jpg" onclick="currentSlide(20)" alt="July 21, 2014 New Mexico">
+    </div>
+  
+
+      
+      <div class="column">
+      <img class="demo" src="Assets/all/images-21.jpg" onclick="currentSlide(21)" alt="July 21, 2014 New Mexico">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Assets/all/images-22.jpg" onclick="currentSlide(22)" alt="July 25, 2014 Wyoming">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Assets/all/images-23.jpg" onclick="currentSlide(23)" alt="July 25, 2014 Wyoming">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Assets/all/images-24.jpg" onclick="currentSlide(24)" alt="July 25, 2014 Wyoming">
+    </div>
+  
+
+      
+      
+      <div class="column">
+      <img class="demo" src="Assets/all/images-25.jpg" onclick="currentSlide(25)" alt="July 26, 2014 Evanston, Wyoming-Utah Line">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Assets/all/images-26.jpg" onclick="currentSlide(26)" alt="July 26, 2014 Utah">
+    </div>
+<div class="column">
+      <img class="demo" src="Assets/all/images-27.jpg" onclick="currentSlide(27)" alt="July 26, 2014 Utah">
+    </div>
+    
+      
+          <!--     July 27 to August 1           -->
+      
+          <div class="column">
+      <img class="demo" src="Assets/all/images-28.jpg" onclick="currentSlide(28)" alt="July 26, 2014 Utah">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Assets/all/images-29.jpg" onclick="currentSlide(29)" alt="July 30, 2014 Victorville, California ">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Assets/all/images-30.jpg" onclick="currentSlide(30)" alt="July 30, 2014 Victorville, California ">
+    </div>
+      
+      <div class="column">
+      <img class="demo" src="Assets/all/images-31.jpg" onclick="currentSlide(31)" alt="July 30, 2014 Victorville, California ">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Assets/all/images-32.jpg" onclick="currentSlide(32)" alt="July 30, 2014 Hesperia, California">
+    </div>
+  
+
+      <div class="column">
+      <img class="demo" src="Assets/all/images-33.jpg" onclick="currentSlide(33)" alt="July 30, 2014 Hesperia, California">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Assets/all/images-34.jpg" onclick="currentSlide(34)" alt="August 1, 2014 Texas Canyon, Arizona">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Assets/all/images-35.jpg" onclick="currentSlide(35)" alt="August 1, 2014 New Mexico">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="Assets/all/images-36.jpg" onclick="currentSlide(36)" alt="August 1, 2014 Texas ">
+    </div>
+      
+      
+      
+      <!--        August 1 to August 24      -->
+      
+      
+ 
+      
+      
+   </div>
+
+ <!--end model and thumbnail image------------------>
+
+      
+      
+      </div>
+
+<footer class="footer">   
+ <div class="footer-social-icons">
+     <ul class="social-icons">
+        <li><a href="" class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+        <li><a href="" class="social-icon"> <i class="fa fa-google-plus"></i></a></li>
+     </ul>
+ </div>  
+</footer>
+	
+<!--container ends here-->
+	</div>
+	
+	
+	<script src="js/styles.js"></script>
+	<script src="js/modernizr-custom.js"></script>
+	<script src="js/jquery.js"></script>	
+</body>
+</html>

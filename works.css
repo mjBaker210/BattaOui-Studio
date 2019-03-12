@@ -1,0 +1,53 @@
+
+
+.row {
+	background-color: #11122b;
+	padding-bottom: 85px;
+}
+.column {
+    float: left;
+    width:33.33%;
+    height: 25em;
+	padding-left: 0px;
+     padding-right: 40px;
+	
+	
+ 
+}
+
+
+
+
+
+.column img {
+    
+     width: 90%;
+	height: 350px;
+	padding-top: 10px;
+	padding-left: 0px;
+ /*   opacity: 0.8; */
+    cursor: pointer;
+	position:relative;
+    margin: 3.7em;
+    display: block;
+    border-radius: 10px;
+    background:#fff;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-transition: width 2s; 
+    transition: width 2s;
+	
+	
+	
+}
+
+
+.column img:hover {
+    opacity: 0.8;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
